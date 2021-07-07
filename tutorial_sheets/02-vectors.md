@@ -37,19 +37,19 @@
 ### Problem 1.
 Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}= (1,2,1)$. Calculate the following:
 
-(a) $\vec{a}+\vec{b}=$
+(a) $\vec{a}+\vec{b}$
 <div class = "answer">$\Rightarrow \quad \boxed{\vec{a}+\vec{b}=(1,3,3)}$</div>
 
-(b) $2\vec{a}-\vec{b}=$
-<div class = "answer">$2\vec{a}-\vec{b}=(2\times2+1,2\times1-2,2\times0-3) = \boxed{ (5,0,-3)}$</div>
+(b) $2\vec{a}-\vec{b}$
+<div class = "answer">$2\vec{a}-\vec{b}=((2\times2+1),\space (2\times1-2),\space (2\times0-3)) = \boxed{ (5,0,-3)}$</div>
 
-(c) $\vec{a}\circ\vec{b}\circ \vec{c}=$
+(c) $\vec{a}\circ\vec{b}\circ \vec{c}$
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
 
-(d) Modulus of $\vec{c}$
+(d) $|\vec{c}|$
 <div class = "answer">$|c| = \sqrt{1^2+2^2+1^2}= \boxed{ \sqrt{6}}$</div>
 
-(e) Find the unit vector in direction of $\vec{c}$ 
+(e) Find the unit vector in direction of $\vec{c}$.
 <div class = "answer">$\boxed{\hat{c} = \frac{\vec{c}}{|c|} = \left(\frac{1}{\sqrt{6}},\frac{2}{\sqrt{6}},\frac{1}{\sqrt{6}}\right)}$</div>
 
 (f) Find the volume of the parallelepiped described by the vectors $\vec{a}, \vec{b}$ and $\vec{c}$ (hint: Use Triple scalar product). 
@@ -58,7 +58,7 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 -----------------------------------------------------------------------------------
 
 ### Problem 2.
-Scalar product calculation
+Scalar product calculation.
 
 (a) Let $\vec{a} = \hat{i}+2\hat{j} $ and $ \vec{b} =2\hat{i}+\hat{j}. $ Is $ \| \vec{a} \| = \| \vec{b} \|?$ Are the vectors $\vec{a}$ and $\vec{b}$ equal ?
 
@@ -80,7 +80,7 @@ $$\boxed{(\vec{a}-\vec{b})\cdot(\vec{a}+\vec{b}) =(6\hat{i}+2\hat{j}-8\hat{k})\c
 
 (e) Show the points $A(-2\vec{i}+3\vec{j}+5\vec{k})$, $B(\vec{i}+2\vec{j}+3\vec{k})$, and $C(7\vec{i}-\vec{k})$ are collinear (They lie on the same straight line).
 <div class = "answer">We have 
-$$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $$\vec{BC}=(7-1)\hat{i}+(0-2)\hat{j}+(-1-3)\hat{k}=6\hat{i}-2\hat{j}-4\hat{k},$$ $$\vec{CA}=(-2-7)\hat{i}+(3-0)\hat{j}+(5+1)\hat{k}=-9\hat{i}+3\hat{j}+6\hat{k},$$ $$|\vec{AB}|=\sqrt{14}, |\vec{BC}|=2\sqrt{14}, $$ 
+$$\vec{AB}=(1+2)\hat{i}+(2-3)\hat{j}+(3-5)\hat{k}=3\hat{i}-\hat{j}-2\hat{k},$$ $$\vec{BC}=(7-1)\hat{i}+(0-2)\hat{j}+(-1-3)\hat{k}=6\hat{i}-2\hat{j}-4\hat{k},$$ $$\vec{CA}=(-2-7)\hat{i}+(3-0)\hat{j}+(5+1)\hat{k}=-9\hat{i}+3\hat{j}+6\hat{k},$$ $$|\vec{AB}|=\sqrt{14},\space |\vec{BC}|=2\sqrt{14}, $$ 
 and 
 $$|\vec{AC}|=3\sqrt{14},$$
 Therefore, $$\boxed{|\vec{AC}|=|\vec{AB}|+|\vec{BC}|.}$$</div>
@@ -141,9 +141,9 @@ Hence, the required area is $\boxed{\sqrt{42} \text{ units}^2.}$</div>
 -----------------------------------------------------------------------------------
 
 ### Problem 4.
-Analytical geometry calculation
+Analytical geometry calculation.
 
-(a) Find the equation for plane through the point $(0,1,-7)$ perpendicular to the vector $(4,-1,6)$.
+(a) Find the equation for a plane through the point $(0,1,-7)$ which is perpendicular to the vector $(4,-1,6)$.
 <div class = "answer">Let $A=(0,1,-7)$. Let $\vec{n}=(4,-1,6)$. Then, for $P=(x,y,z)$, the equation for the plane is 
 $$\vec{n}.(P-A)= \cos(90^\circ)=0$$
 This becomes 
@@ -152,7 +152,7 @@ Or
 $$4x-(y-1)+6(z+7)=0$$
 Often, we prefer to write this as $\boxed{4x-y+6z+43=0.}$</div>
 
-(b) Find the equation for plane through the points $A=(0,1,-7),B=(3,1,-9), $ and $C=(0,-5,-8)$. 
+(b) Find the equation for a plane through the points $A=(0,1,-7),B=(3,1,-9), $ and $C=(0,-5,-8)$. 
 <div class = "answer">Let $\vec{AB}=\vec{b}=(3,1,-9)-(0,1,-7)=(3,0,-2)$. Let $\vec{AC}=\vec{c}=(0,-5,-8)-(0,1,7)=(0,-6,-1)$. 
 Then, we can find a normal vector by taking their cross product 
 $$\vec{n}=\vec{b}\times\vec{c}=\begin{vmatrix}
@@ -171,7 +171,7 @@ $$-12x+3y-18z-129=0$$
 $$\boxed{4x-y+6z+43=0}$$
 </div>
 
-(c) Find the angle $\theta$ between two lines in the x,y-plane, if they are given by following equations: $$3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$$
+(c) Find the angle $\theta$ between two lines in the x, y-plane, if they are given by following equations: $$3x-4y+1=0  \quad\textrm{and}\quad  2x+y-5=0\$$
 <div class = "answer">Normal vector to the lines are, respectively, $\vec{n_1} = 
 (3 , -4)$  and $\vec{n_2}=(2,1)$. 
 Therefore,
@@ -179,7 +179,7 @@ $$\cos\theta=\frac{n_1\cdot n_2}{|n_1|\cdot|n_2|}$$
 $$\cos\theta=\frac{3\cdot2+(-4)\cdot1}{\sqrt{3^2+(-4)^2}\sqrt{2^2+1^2}}= \frac{2}{5\sqrt{5}}$$
 $$\boxed{\theta=\cos^{-1}\left(\frac{2}{5\sqrt{5}}\right)=79.7^\circ}$$</div>
 
-(d) Let ABC be a triangle in the x,y-plane, with the vertices at the points A $= (2,-1)$, B$=(4,4)$ and C=$(9,7)$. Find the distance from point A normal to line BC:
+(d) Let ABC be a triangle in the x, y-plane, with the vertices at the points A $= (2,-1)$, B$=(4,4)$ and C=$(9,7)$. Find the distance from point A normal to line BC:
 <div class = "answer">First, we can begin by drawing a diagram of the points:
 <img src = "02-vectors-media\vectors.png" alt="vectors">
 
@@ -278,7 +278,7 @@ $(4, -9)$ is equivalent to $4\vec{a} - 9\vec{b}$ <br>
 $4\vec{a} = 8\hat{i} - 12\hat{j}$ <br>
 $-9\vec{b} = -9\hat{i} - 18\hat{j}$ <br>
 $(4, -9) = (8-9)\hat{i} + (-12 - 18)\hat{j}$ <br>
-$(4, -9) = -\hat{i} -30\hat{j}$ <br>
+$(4, -9) = \boxed{-\hat{i} -30\hat{j}}$ <br>
 </div>
 
 -----------------------------------------------------------------------------------
@@ -365,7 +365,7 @@ $\vec{AB} = \begin{pmatrix}
 -2 \\\\
 \end{pmatrix} $ <br>
 The length of $\vec{AB}$ is the shortest distance between the lines. <br>
-Shortest distance, $d = |\vec{AB}| = \sqrt{0^2 + 2^2 + (-2)^2} = 2\sqrt{2}$ <br>
+Shortest distance, $d = |\vec{AB}| = \sqrt{0^2 + 2^2 + (-2)^2} = \boxed{2\sqrt{2}}$ <br>
 Method 2 (The quick way): <br>
 Method 1 can be replaced by a short-cut equation: <br>
 For two lines given in the form $l_1 = \vec{a_1} + \lambda\vec{b_1}$ and $l_2 = \vec{a_2} + \mu\vec{b_2}$, 
@@ -406,19 +406,19 @@ $ (\vec{a_2} - \vec{a_1})\cdot(\vec{b_1}\times\vec{b_2}) = \begin{pmatrix}
 2 \\\\
 -2 \\\\
 \end{pmatrix} = 0 + 6 + 2 = 8 $ <br>
-Finally, $d = \frac{8}{2\sqrt{2}} = 2\sqrt{2}$
+Finally, $d = \frac{8}{2\sqrt{2}} = \boxed{2\sqrt{2}}$
 
 </div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 7.
+### Problem 9.
 (a) The locations of a pair of long straight pipes are specified using Cartesian
 co-ordinates as follows:
 * Pipe $A$: diameter 0.8; axis through points $P (2, 5, 3)$ and $Q (7, 10, 8)$.
 * Pipe $B$ diameter 1.0; axis through points $R (0, 6, 3)$ and $S (−12, 0, 9)$.
 
-Do the pipes need re-aligning to avoid intersection? _(Assume the origin position O is (0,0,0))_
+Do the pipes need re-aligning to avoid intersection? _(Assume the origin position O is (0,0,0))_.
 
 <div class = "answer">For pipe $A$, the vector form of equation is (the other two forms are Parametric form and Cartesian form): 
 $$\vec{r_A} =\vec{OP}+\lambda'\vec{PQ}= [2,5,3]+\lambda'[5,5,5]=[2,5,3]+\lambda\frac{[1,1,1]}{\sqrt{3}}$$
@@ -436,7 +436,7 @@ Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
 Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
 ## Exam Style Questions
-### Problem 8.
+### Problem 10.
 The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point P has coordinates $(4,2,0)$.
 
 ![cuboid](02-vectors-media\cuboid.png)
@@ -447,8 +447,9 @@ The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point
 (b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place. 
 <div class = "answer">[6 marks] <br>
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
-$\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$$
-$$\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5) = 0 $ <br>
+$\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
+The scalar product should equal $0$ if the vector $\textbf{n}$ is perpendicular to the plane. <br>
+$\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5) = 0 $ <br>
 $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
 $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
@@ -457,11 +458,14 @@ $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x
 
 (c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
-$\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k})$ <br>
-Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. 
+$\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k}$ <br>
+Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. <br>
 $15(4 - 4 \lambda) - 20 (3 \lambda) + 4 (5 \lambda) = 20 
 \Rightarrow 40 = 100 \lambda, \lambda = 0.4$ <br>
-Q is $(2.4, 1.2, 2)$ <br>
+$Q$ is $(2.4, 1.2, 2)$ <br>
+$\overrightarrow{AQ} = (-1.6, 1.2, 2)$ and $\overrightarrow{QG} = (-2.4, 1.8, 3)$ <br>
+$\frac{-1.6}{-2.4} = \frac{1.2}{1.8} = \frac{2}{3} $ <br>
+Therefore, 
 $\boxed{AQ : QG  = 2 : 3}$</div>
 
 (d) Find the acute angle between the line $AG$ and the plane $DPF$.
@@ -472,7 +476,7 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$</div>
 
 -----------------------------------------------------------------------------------
 
-### Problem 9.
+### Problem 11.
 A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
     1 \\\\
@@ -491,7 +495,7 @@ $\begin{pmatrix}
 -1 \\\\
 -4 \\\\
 \end{pmatrix} $
-describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 3 significant figures? 
+describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places? 
 
 <div class = "answer">$\lambda 
 \begin{pmatrix}
@@ -504,8 +508,9 @@ x\\y\\-10
 $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix} \right| = \sqrt{2.5^2 + (-2.5)^2 + (-10)^2} = \boxed{10.61 km}$ <br>
 [2 marks]</div>
 
-(c) What is the minimum distance from the buoy to the mahi-mahi fish? 
-<div class = "answer">$\vec{s} = 
+(c) What is the minimum distance from the buoy to the mahi-mahi fish to 2 decimal places? 
+<div class = "answer"> The position of the mahi-mahi fish at any given $t$ is represented by the vector $\vec{s}$. <br>
+$\vec{s} = 
 \begin{pmatrix}
 -4\\3\\-2
 \end{pmatrix} + t 
@@ -514,8 +519,9 @@ $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix
 \end{pmatrix} = 
 \begin{pmatrix}
 -4+t\\3+7t\\-2-6t
-\end{pmatrix}
-\\ \vec{v} \cdot (\vec{b} - \vec{s}) = 0 
+\end{pmatrix} $<br>
+When the fish is closest to the buoy, the velocity vector of the fish $\vec{v}$ will be perpendicular to the vector from the fish to the buoy, which is represented by $(\vec{b} - \vec{s})$. <br>
+ $\vec{v} \cdot (\vec{b} - \vec{s}) = 0 
 = \begin{pmatrix}
 1\\7\\-6
 \end{pmatrix} \cdotp 
@@ -523,11 +529,12 @@ $\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix
 8 -(-4+t)\\6-(3+7t)\\0-(-2-6t)
 \end{pmatrix}
 =  1(12-t) + 7(3-7t) - 6(2+6t) 
-\\ = 21 - 86t \Rightarrow{t = \frac{21}{86}}
-\\ \\ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
+\\ = 21 - 86t \Rightarrow{t = \frac{21}{86}}$ <br>
+The minimum distance between the fish and the buoy is the length of the vector $(\vec{b} - \vec{s})$. <br>
+$ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
 
 ## Challenging Questions
-### Problem 10.
+### Problem 12.
 Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
