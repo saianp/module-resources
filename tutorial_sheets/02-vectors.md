@@ -301,7 +301,114 @@ $(4, -9) = -\hat{i} -30\hat{j}$ <br>
 -1 \\\\
 -1 \\\\
 \end{pmatrix} $ respectively, where $\lambda$ and $\mu$ are scalars. <br>
-Find the shortest distance between these two lines.
+Find the shortest distance, $d$, between these two lines.
+<div class = "answer">
+Method 1 (The long way): <br>
+Let $A$ and $B$ be general points on $l_1$ and $l_2$ respectively. <br>
+$A = \begin{pmatrix}
+1 \\\\
+\lambda \\\\
+\lambda \\\\
+\end{pmatrix}$ and
+$B = \begin{pmatrix}
+-1 + 2\mu \\\\
+3 - \mu \\\\
+-1 - \mu \\\\
+\end{pmatrix}$ <br>
+$\vec{AB} = \begin{pmatrix}
+-1 + 2\mu \\\\
+3 - \mu \\\\
+-1 - \mu \\\\
+\end{pmatrix} - \begin{pmatrix}
+1 \\\\
+\lambda \\\\
+\lambda \\\\
+\end{pmatrix} = \begin{pmatrix}
+-2 + 2\mu \\\\
+3 - \mu -\lambda \\\\
+-1 - \mu - \lambda \\\\
+\end{pmatrix} $ <br>
+As $\vec{AB}$ is perpendicular to both $l_1$ and $l_2$, the scalar product of the direction vectors of the lines
+is zero. This can be used to generate linear equations in $\lambda$ and $\mu$. <br>
+$\vec{AB}$ is perpendicular to $l_1$: <br>
+$\begin{pmatrix}
+-2 + 2\mu \\\\
+3 - \mu -\lambda \\\\
+-1 - \mu - \lambda \\\\
+\end{pmatrix}\cdot\begin{pmatrix}
+0 \\\\
+1 \\\\
+1 - \mu - \lambda \\\\
+\end{pmatrix} = 0$ <br>
+$3 - \mu - \lambda - 1 - \mu - \lambda = 0 \Rightarrow\quad 2 - 2\mu - 2\lambda = 0\quad (1)$ <br>
+$\vec{AB}$ is perpendicular to $l_2$: <br>
+$\begin{pmatrix}
+-2 + 2\mu \\\\
+3 - \mu -\lambda \\\\
+-1 - \mu - \lambda \\\\
+\end{pmatrix}\cdot\begin{pmatrix}
+2 \\\\
+-1 \\\\
+-1 - \mu - \lambda \\\\
+\end{pmatrix} = 0$ <br>
+$ -4 + 4\mu - 3 + \mu + \lambda + 1 + \mu + \lambda = 0 \Rightarrow\quad -6 + 6\mu + 2\lambda = 0\quad (2)$ <br>
+Rearranging equation $(1)$ gives $\lambda = 1 - \mu$. This can be substituted into equation $(2)$. <br>
+$ -6 + 6\mu +2(1 - \mu) = 0 \Rightarrow\quad -4 + 4\mu = 0 \Rightarrow\quad \mu = 1$ <br>
+Therefore, $\lambda = 1 - 1 = 0 $ <br>
+$\vec{AB} = \begin{pmatrix}
+-2 + 2(1) \\\\
+3 - 1 - 0 \\\\
+-1 - 1 - 0 \\\\
+\end{pmatrix} = \begin{pmatrix}
+0 \\\\
+2 \\\\
+-2 \\\\
+\end{pmatrix} $ <br>
+The length of $\vec{AB}$ is the shortest distance between the lines. <br>
+Shortest distance, $d = |\vec{AB}| = \sqrt{0^2 + 2^2 + (-2)^2} = 2\sqrt{2}$ <br>
+Method 2 (The quick way): <br>
+Method 1 can be replaced by a short-cut equation: <br>
+For two lines given in the form $l_1 = \vec{a_1} + \lambda\vec{b_1}$ and $l_2 = \vec{a_2} + \mu\vec{b_2}$, 
+$ d = \frac{|(\vec{a_2} - \vec{a_1})\cdot(\vec{b_1}\times\vec{b_2})|}{|(\vec{b_1}\times\vec{b_2})|}$ <br>
+$\vec{a_2} - \vec{a_1} = \begin{pmatrix}
+-1 \\\\
+3 \\\\
+-1 \\\\
+\end{pmatrix} - \begin{pmatrix}
+1 \\\\
+0 \\\\
+0 \\\\
+\end{pmatrix} = \begin{pmatrix}
+-2 \\\\
+3 \\\\
+-1 \\\\
+\end{pmatrix}$ <br>
+$ \vec{b_1}\times\vec{b_2} = \begin{pmatrix}
+0 \\\\
+1 \\\\
+1 \\\\
+\end{pmatrix}\times\begin{pmatrix}
+2 \\\\
+-1 \\\\
+-1 \\\\
+\end{pmatrix} = \begin{pmatrix}
+0 \\\\
+2 \\\\
+-2 \\\\
+\end{pmatrix} $ <br>
+$ |\vec{b_1}\times\vec{b_2}| = \sqrt{0^2 + 2^2 + (-2)^2} = 2\sqrt{2} $ <br>
+$ (\vec{a_2} - \vec{a_1})\cdot(\vec{b_1}\times\vec{b_2}) = \begin{pmatrix}
+-2 \\\\
+3 \\\\
+-1 \\\\
+\end{pmatrix}\cdot\begin{pmatrix}
+0 \\\\
+2 \\\\
+-2 \\\\
+\end{pmatrix} = 0 + 6 + 2 = 8 $ <br>
+Finally, $d = \frac{8}{2\sqrt{2}} = 2\sqrt{2}$
+
+</div>
 
 -----------------------------------------------------------------------------------
 
