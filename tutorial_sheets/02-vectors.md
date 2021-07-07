@@ -529,7 +529,7 @@ When the fish is closest to the buoy, the velocity vector of the fish $\vec{v}$ 
 8 -(-4+t)\\6-(3+7t)\\0-(-2-6t)
 \end{pmatrix}
 =  1(12-t) + 7(3-7t) - 6(2+6t) 
-\\ = 21 - 86t \Rightarrow{t = \frac{21}{86}}$ <br>
+\\ = 21 - 86t = 0 \Rightarrow{t = \frac{21}{86}}$ <br>
 The minimum distance between the fish and the buoy is the length of the vector $(\vec{b} - \vec{s})$. <br>
 $ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
 
