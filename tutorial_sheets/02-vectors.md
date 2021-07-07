@@ -272,6 +272,40 @@ Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed
 -----------------------------------------------------------------------------------
 
 ### Problem 7.
+(a) Given the basis vectors $\vec{a} = 2\hat{i} - 3\hat{j}$ and $\vec{b} = \hat{i} + 2\hat{j}$, what is the vector $(4, -9)$ equivalent to?
+<div class = "answer">
+$(4, -9)$ is equivalent to $4\vec{a} - 9\vec{b}$ <br>
+$4\vec{a} = 8\hat{i} - 12\hat{j}$ <br>
+$-9\vec{b} = -9\hat{i} - 18\hat{j}$ <br>
+$(4, -9) = (8-9)\hat{i} + (-12 - 18)\hat{j}$ <br>
+$(4, -9) = -\hat{i} -30\hat{j}$ <br>
+</div>
+
+-----------------------------------------------------------------------------------
+
+### Problem 8.
+(a) The lines $l_1$ and $l_2$ have equations $\begin{pmatrix}
+1 \\\\
+0 \\\\
+0 \\\\
+\end{pmatrix} + \lambda\begin{pmatrix}
+0 \\\\
+1 \\\\
+1 \\\\
+\end{pmatrix} $ and $\begin{pmatrix}
+-1 \\\\
+3 \\\\
+-1 \\\\
+\end{pmatrix} + \mu\begin{pmatrix}
+2 \\\\
+-1 \\\\
+-1 \\\\
+\end{pmatrix} $ respectively, where $\lambda$ and $\mu$ are scalars. <br>
+Find the shortest distance between these two lines.
+
+-----------------------------------------------------------------------------------
+
+### Problem 7.
 (a) The locations of a pair of long straight pipes are specified using Cartesian
 co-ordinates as follows:
 * Pipe $A$: diameter 0.8; axis through points $P (2, 5, 3)$ and $Q (7, 10, 8)$.
