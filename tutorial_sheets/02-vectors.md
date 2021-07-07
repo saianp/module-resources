@@ -486,7 +486,7 @@ $\begin{pmatrix}
     1 \\\\
     7 \\\\
     -6 \\\\
-\end{pmatrix} \text{km/h}$
+\end{pmatrix} \text{km/h}$.
 
 (a) What is the speed of the fish in km/h to 2 decimal places?
 <div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ </div>
