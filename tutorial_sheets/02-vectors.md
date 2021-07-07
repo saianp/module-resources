@@ -19,12 +19,14 @@
 
 ### Learning Targets
 * Add and subtract vectors
-* Find modulus of a vector
+* Find the modulus of a vector
 * Find the unit vector
 * Calculate the scalar product
 * Use $\cos{\theta} = \frac{\vec{a}\cdot\vec{b}}{\|\vec{a}\|\|\vec{b}\|}$
 * Use the cross product
+* Use basis vectors
 * Find the cartesian and vector equations for a plane
+* Find the minimum distance between vectors
 
 ### Additional Resources
 * [3Blue1Brown - Linear Algebra Playlist](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
@@ -554,6 +556,52 @@ In graph(ii)
 $$\vec{a}+(\vec{b}+\vec{c})=\vec{PQ}+\vec{QS}=\vec{PS}$$
 Therefore
 $$(\vec{a}+\vec{b})+\vec{c}=\vec{a}+(\vec{b}+\vec{c})$$
+</div>
+
+-----------------------------------------------------------------------------------
+
+### Problem 13.
+The points $A$, $B$ and $C$ have position vectors $(-2, -3,0)$, $(-1, -1, 3)$ and $(1, 1, 1)$ respectively. Find the centre and radius of the circle that passes through all three points.
+<div class = "answer">
+Let the centre of the circle, $X$ have position vector $\textbf{r} = \textbf{c} + \lambda(\textbf{c}-\textbf{b}) + \mu(\textbf{c}-\textbf{a})$, where $\textbf{a} = \begin{pmatrix}
+-2\\-3\\0
+\end{pmatrix}, \textbf{b} = \begin{pmatrix}
+-1\\-1\\3
+\end{pmatrix}, \textbf{c} = \begin{pmatrix}
+1\\1\\1
+\end{pmatrix} $ <br>
+Therefore, $\textbf{r} = \begin{pmatrix}
+1\\1\\1
+\end{pmatrix} + \lambda\begin{pmatrix}
+2\\2\\-2
+\end{pmatrix} + \mu\begin{pmatrix}
+3\\4\\1
+\end{pmatrix}$ <br>
+$\overrightarrow{AX}$, $\overrightarrow{BX}$ and $\overrightarrow{CX}$ are radii of the circle which passes through $A$, $B$ and $C$. <br>
+$|\overrightarrow{AX}|^2 = |\overrightarrow{CX}|^2$ <br>
+$(3+(2\lambda+3\mu))^2 + (4+(2\lambda=4\mu))^2 + (1+(-2\lambda+\mu)) = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2 $<br>
+$ 26 + 6(2\lambda + 3\mu) + 8(2\lambda + 4\mu) + 2(-2\lambda + \mu) = 0 $ <br>
+$ 26 + 24\lambda + 52\mu = 0,\quad (1)$ <br>
+$ |\overrightarrow{BX}|^2 = |\overrightarrow{CX}|^2$ <br>
+$ (2 + (2\lambda+3\mu))^2 + (2 + (2\lambda + 4\mu))^2 + (-2 + (-2\lambda + \mu))^2 = (2\lambda +3\mu)^2 + (2\lambda + 4\mu)^2 + (-2\lambda+\mu)^2$ <br>
+$ 12 + 4(2\lambda + 3\mu) + 4(2\lambda + 4\mu) - 4(-2\lambda + \mu) = 0$ <br>
+$ 12 + 24\lambda + 24\mu = 0,\quad (2)$ <br>
+Solving equations $(1)$ and $(2)$ simultaneously, <br>
+$(1) - (2): 14 + 28\mu = 0 \Rightarrow \mu = -\frac{1}{2}$ <br>
+Substituting $\mu = -\frac{1}{2}$ into $(2)$: <br>
+$ 12 + 24\lambda + 24(-\frac{1}{2}) = 0$ <br>
+$ 24\lambda = 0 \Rightarrow\quad \lambda = 0 $ <br>
+Therefore, $\textbf{r} = \begin{pmatrix}
+1\\1\\1
+\end{pmatrix} + -\frac{1}{2}\begin{pmatrix}
+3\\4\\1
+\end{pmatrix} = \begin{pmatrix}
+-\frac{1}{2}\\-1\\\frac{1}{2}
+\end{pmatrix}$ <br>
+Therefore, the coordinates of the centre of the circle are $\boxed{(-\frac{1}{2}, -1, -\frac{1}{2})}$. <br>
+The point P is equidistant to each point $A$, $B$ and $C$ (since $A$, $B$ and $C$ lie on circumference of circle centre X). <br>
+Considering point $C$, the radius $r$ is given by: <br>
+$ r = |\overrightarrow{XC}| = \sqrt{(1-(-\frac{1}{2}))^2 + (1-(-1))^2 + (1 - \frac{1}{2})^2} = \boxed{\sqrt{\frac{13}{2}}} $
 </div>
 
 ## Answers
