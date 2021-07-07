@@ -437,15 +437,16 @@ Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$
 
 ## Exam Style Questions
 ### Problem 10.
+#### [12 marks]
 The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point P has coordinates $(4,2,0)$.
 
 ![cuboid](02-vectors-media\cuboid.png)
 
-(a) Find the length of the diagonal $AG$ [2 marks]
-<div class = "answer">$AG = \sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$ <br>
-[2 marks]</div>
+(a) Find the length of the diagonal $AG$
+<div class = "answer">$AG = \sqrt{4^2 + 3^2 +5^2} \\ = \sqrt{50} \\ = \boxed{5\sqrt{2} }$
+</div>
 
-(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place. [6 marks]
+(b) Show that the vector $\textbf{n} = 15\textbf{i} - 20\textbf{j} +4\textbf{k}$ is normal to the plane $DPF$. Hence find the cartesian equation of this place.
 <div class = "answer">
 $\overrightarrow{DP} = 4\textbf{i} +2\textbf{j} -5\textbf{k} \text{ or } \overrightarrow{PD} = -4\textbf{i} -2\textbf{j} +5\textbf{k}$ <br>
 $\overrightarrow{DF} = 4\textbf{i} +\textbf{j} \space \text{(or }\  \overrightarrow{PF} = \textbf{j} + 5\textbf{k})$ <br>
@@ -454,11 +455,10 @@ $\textbf{n} \cdot \overrightarrow{DP} = 15 \times 4 - 20 \times 2 + 4 \times (-5
 $\textbf{n} \cdot \overrightarrow{DF} = 15 \times 4 - 20 \times 3 = 0 $ <br>
 $\text{(or } \textbf{n} \cdot{PF} = -20 \times 1 + 4 \times 5 = 0)$ <br>
 $\textbf{r} \cdot \textbf{n} = \textbf{a} \cdot \textbf{n} \Rightarrow\boxed{15x - 20 y + 4z = 20
-\textbf{r} = 4\textbf{i}}$ <br>
-[6 marks]
+\textbf{r} = 4\textbf{i}}$
 </div>
 
-(c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$. [6 marks]
+(c) The diagonal $AG$ intersects the plane $DPF$ at $Q$. Write down a vector equation of the line $AG$. Hence find the coordinates of the point $Q$, and the ratio $AQ:QG$.
 <div class = "answer">$\textbf{r} = 4\textbf{i} + \lambda(-4\textbf{i} + 3\textbf{j} + 5\textbf{k})$ <br>
 $\textbf{r} = (4 - 4\lambda)\textbf{i} + 3\lambda\textbf{j} + 5\lambda\textbf{k}$ <br>
 Substitute the components of the vector equation of the line AG into the equation for the plane $DPF$. <br>
@@ -468,19 +468,19 @@ $Q$ is $(2.4, 1.2, 2)$ <br>
 $\overrightarrow{AQ} = (-1.6, 1.2, 2)$ and $\overrightarrow{QG} = (-2.4, 1.8, 3)$ <br>
 $\frac{-1.6}{-2.4} = \frac{1.2}{1.8} = \frac{2}{3} $ <br>
 Therefore, 
-$\boxed{AQ : QG  = 2 : 3}$ <br>
-[6 marks]</div>
+$\boxed{AQ : QG  = 2 : 3}$
+</div>
 
-(d) Find the acute angle between the line $AG$ and the plane $DPF$. [2 marks]
+(d) Find the acute angle between the line $AG$ and the plane $DPF$.
 <div class = "answer">Angle between $(-4\textbf{i} + 3\textbf{j} + 5\textbf{k}) \text{ and } (15\textbf{i} -20\textbf{j} + 4\textbf{k})$ is $\theta$ where <br>
 $ cos\theta = \frac{(-4\times15) + (3\times-20)+(5\times4)}{\sqrt{50}\sqrt{641}}$ <br> 
 $\theta = 56.0$ or $124.0$ <br>
-$\boxed{\text{Angle between line and plane } = 34.0^\circ}$ <br>
-[2 marks]</div>
+$\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
+#### [14 marks]
 A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
     1 \\\\
@@ -488,9 +488,8 @@ $\begin{pmatrix}
     -6 \\\\
 \end{pmatrix} \text{km/h}$
 
-(a) What is the speed of the fish in km/h to 2 decimal places? [2 marks]
-<div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ <br>
-[2 marks]</div>
+(a) What is the speed of the fish in km/h to 2 decimal places?
+<div class = "answer">$|\vec{v}|= \sqrt{1^2 + 7^2 + (-6)^2} = \sqrt{86} = \boxed{9.27 \text{km/h} }$ </div>
 
 (b) A deep sea buoy floats on the surface of the water at location $(8,6,0)$km and is attached by a chain to an anchor that sits on the sea bed (the buoy does not move from its given position at sea-level). 
 The vector 
@@ -499,7 +498,7 @@ $\begin{pmatrix}
 -1 \\\\
 -4 \\\\
 \end{pmatrix} $
-describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places? [2 marks]
+describes the direction of the anchor from the buoy. The ocean is $10$km deep. How long is the anchor chain to 2 decimal places?
 
 <div class = "answer">$\lambda 
 \begin{pmatrix}
@@ -509,10 +508,9 @@ describes the direction of the anchor from the buoy. The ocean is $10$km deep. H
 x\\y\\-10
 \end{pmatrix}
 \Rightarrow{\lambda = \frac{-10}{-4}= 2.5}$ <br><br>
-$\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix} \right| = \sqrt{2.5^2 + (-2.5)^2 + (-10)^2} = \boxed{10.61 km}$ <br>
-[2 marks]</div>
+$\Rightarrow$ Chain length $= \left| \begin{pmatrix} 2.5\\-2.5\\-10 \end{pmatrix} \right| = \sqrt{2.5^2 + (-2.5)^2 + (-10)^2} = \boxed{10.61 km}$</div>
 
-(c) What is the minimum distance from the buoy to the mahi-mahi fish to 2 decimal places? [10 marks]
+(c) What is the minimum distance from the buoy to the mahi-mahi fish to 2 decimal places?
 <div class = "answer"> The position of the mahi-mahi fish at any given $t$ is represented by the vector $\vec{s}$. <br>
 $\vec{s} = 
 \begin{pmatrix}
@@ -535,7 +533,7 @@ When the fish is closest to the buoy, the velocity vector of the fish $\vec{v}$ 
 =  1(12-t) + 7(3-7t) - 6(2+6t) 
 \\ = 21 - 86t = 0 \Rightarrow{t = \frac{21}{86}}$ <br>
 The minimum distance between the fish and the buoy is the length of the vector $(\vec{b} - \vec{s})$. <br>
-$ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $ [10 marks]</div>
+$ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km} $</div>
 
 ## Challenging Questions
 ### Problem 12.
