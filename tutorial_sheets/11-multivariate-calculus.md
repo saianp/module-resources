@@ -206,7 +206,7 @@ $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nab
 -----------------------------------
 
 ### Problem 5.
-Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following:: <br>
+Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following: <br>
 (a) $7xy^2+z^4$ 
 <div class = "answer">
 The gradient is found by, <br>
