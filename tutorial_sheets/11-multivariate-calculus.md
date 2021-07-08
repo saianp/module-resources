@@ -531,7 +531,28 @@ Simplify, <br>
 $$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
 </div>
 
+-----------------------------------
 
+### Problem 12.
+#### [8 marks]
+For a function of two variables, $f(x,y)$, the total differential, $df = (\frac{\partial{}f}{\partial{}x})_y dx + (\frac{\partial{}f}{\partial{}y})_x dy$. <br>
+(a) Using this expression, find an expression for the partial derivative, $(\frac{\partial{}x}{\partial{}y})_f$. <br>
+Use the identities, $(\frac{\partial{}a}{\partial{}b})_a = 0$ and $(\frac{\partial{}a}{\partial{}a})_b = 1$.
+<div class = "answer">
+Divide through by $dy$ holding $f$ constant, <br>
+$$ (\frac{\partial{}f}{\partial{}y})_f = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x (\frac{\partial{}y}{\partial{}y})_f$$ <br>
+Apply the identities, <br>
+$$ \Rightarrow\quad 0 = (\frac{\partial{}f}{\partial{}x})_y (\frac{\partial{}x}{\partial{}y})_f + (\frac{\partial{}f}{\partial{}y})_x$$ <br>
+Rearrange, <br>
+$$ (\frac{\partial{}x}{\partial{}y})_f = \boxed{-\frac{(\frac{\partial{}f}{\partial{}y})_x}{(\frac{\partial{}f}{\partial{}x})_y}}$$
+</div>
+(b) Find the partial derivative $(\frac{\partial{}x}{\partial{}y})_f$ of the function $f(x,y) = x^2 + y -2xy^2 + x$.
+<div class = "answer">
+Calculate the partial derivatives of $f$, <br>
+$$(\frac{\partial{}f}{\partial{}y})_x = 1 -4xy $$ <br>
+$$(\frac{\partial{}f}{\partial{}x})_y = 2x - 2y^2 + 1 $$<br>
+$$(\frac{\partial{}x}{\partial{}y})_f = -\frac{1 -4xy}{2x - 2y^2 + 1} = \boxed{\frac{4xy - 1}{2x - 2y^2 + 1}}$$
+</div>
 
 ## Answers
 
