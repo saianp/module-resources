@@ -206,7 +206,7 @@ $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nab
 -----------------------------------
 
 ### Problem 5.
-Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following: <br>
+Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following functions: <br>
 (a) $7xy^2+z^4$ 
 <div class = "answer">
 The gradient is found by, <br>
@@ -292,10 +292,8 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 ### Problem 8.
 #### [10 marks]
 Given the expressions, <br>
-$ f(u,v)=2u^3-7uv+v^2$ <br>
-$ u(x,y)=\frac{x}{y}$ <br>
-$ v(x,y)=\frac{y^2}{x}$ <br>
-Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$.
+$$ f(u,v)=2u^3-7uv+v^2,\quad u(x,y)=\frac{x}{y}, \quad v(x,y)=\frac{y^2}{x}$$ <br>
+Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$. <br>
 (Hint: The final expression should be in terms of $x$ and $y$)
 <div class = "answer">
 We need to use the multivariate chain rule: <br>
