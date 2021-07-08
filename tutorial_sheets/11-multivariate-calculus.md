@@ -459,6 +459,31 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 
 </div>
 
+-----------------------------------
+
+### Problem 10.
+#### [10 marks]
+Given the expressions, <br>
+$ f(u,v)=2u^3-7uv+v^2$ <br>
+$ u(x,y)=\frac{x}{y}$ <br>
+$ v(x,y)=\frac{y^2}{x}$ <br>
+Use the multivariate chain rule to calculate $\frac{\partial{}f}{\partial{x}}$ of $f(u(x,y),v(x,y))$.
+(Hint: The final expression should be in terms of $x$ and $y$)
+<div class = "answer">
+We need to use the multivariate chain rule: <br>
+$$\frac{\partial{}f}{\partial{}x} = \frac{\partial{}f}{\partial{}u}\frac{\partial{}u}{\partial{}x} + \frac{\partial{}f}{\partial{}v}\frac{\partial{}v}{\partial{}x}$$ <br>
+Calculate each of the needed partial derivatives, <br>
+$$\frac{\partial{}f}{\partial{}u} = 6u^2 - 7v, \frac{\partial{}f}{\partial{}v} = -7u +2v$$ <br>
+$$\frac{\partial{}u}{\partial{}x} = \frac{1}{y}, \frac{\partial{}v}{\partial{}x} = -\frac{y^2}{x^2}$$ <br>
+Substitute all of these derivatives into the multivariate chain rule equation, <br>
+$$\frac{\partial{}f}{\partial{}x} = (6u^2-7v)(\frac{1}{y})+(-7u+2v)(-\frac{y^2}{x^2})$$ <br>
+Substitute $u$ and $v$, <br>
+$$\frac{\partial{}f}{\partial{}x}=(\frac{6x^2}{y^2}-\frac{7y^2}{x})(\frac{1}{y})+(-\frac{7x}{y}+\frac{2y^2}{x})(-\frac{y^2}{x})$$ <br>
+$$\Rightarrow \frac{6x^2}{y^3} - \frac{7y}{x} + \frac{7y}{x} - \frac{2y^4}{x^3}$$ <br>
+Simplify, <br>
+$$\frac{\partial{}f}{\partial{}x} = \frac{6x^2}{y^3} - \frac{2y^4}{x^3}$$
+</div>
+
 
 
 ## Answers
