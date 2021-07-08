@@ -352,7 +352,7 @@ $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 ### Problem 7.
 Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
 
-(a) ${x} = \begin{bmatrix}
+(a) $\mathbf{x} = \begin{bmatrix}
     x \newline y \newline z \end{bmatrix}$
 <div class = "answer">
 For any column vector v:
@@ -383,7 +383,7 @@ $$
 $$ \boxed{ \nabla \cdot \mathbf{x} = 3, \ \ \ \nabla \times \mathbf{x} = \begin{bmatrix} 0 \newline 0 \newline 0 \end{bmatrix} } $$
 </div>
 
-(b) ${u} = \begin{bmatrix}
+(b) $\mathbf{u} = \begin{bmatrix}
     -y \newline x \newline 3 z^2
     \end{bmatrix}$
 
@@ -393,7 +393,7 @@ $$
 $$
 </div>
 
-(c) ${a} = \begin{bmatrix}
+(c) $\mathbf{a} = \begin{bmatrix}
     0 \newline 0 \newline x z
     \end{bmatrix}$
 
@@ -403,7 +403,7 @@ $$
 $$
 </div>
 
-(d) ${p} = \begin{bmatrix}
+(d) $\mathbf{p} = \begin{bmatrix}
     x y z \newline x^2 + y^2 \newline -z
     \end{bmatrix}$
 
@@ -413,7 +413,7 @@ $$
 $$
 </div>
 
-(e) ${q} = \begin{bmatrix}
+(e) $\mathbf{q} = \begin{bmatrix}
     \sin x \cos y \sin z \newline \cos x \sin y \sin z \newline \cos z
     \end{bmatrix}$
 
@@ -424,8 +424,43 @@ $$\boxed{ \nabla \cdot \mathbf{q} = -\sin z + 2 \cos x \cos y \sin z, \ \ \ \nab
 
 -----------------------------------
 
-## Exam Style Questions
 ### Problem 8.
+Calculate the gradient $(\nabla)$ and Laplacian $(\nabla^2)$ of the following:: <br>
+(a) $7xy^2+z^4$ 
+<div class = "answer">
+The gradient is found by, <br>
+$$ \nabla(7xy^2+z^4) = \begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}(7xy^2+z^4) \Rightarrow\quad\boxed{\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}}$$ <br>
+The Laplacian is effectively applying $\nabla$ twice, hence there are 2 methods, <br>
+Method 1: Using the answer for the gradient, we can apply $\nabla$ again, <br>
+$$ \nabla\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}\Rightarrow\quad\begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}\begin{bmatrix}
+    7y^2 \newline 14xy \newline 4z^3
+    \end{bmatrix}
+  \Rightarrow 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$ <br>
+Method 2: <br>
+$$\nabla^2(7xy^2+z^4) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(7xy^2+z^4)$$ <br>
+$$\Rightarrow\quad 0 + 14x + 12z^3\Rightarrow\quad\boxed{14x + 12z^3}$$
+</div>
+(b) $\sin (xy) + 2z^2$
+<div class = "answer">
+$$ \nabla(sin (xy) + 2z^2) = \begin{bmatrix}
+    \frac{\partial{}f}{\partial{}x} \newline \frac{\partial{}f}{\partial{}y} \newline \frac{\partial{}f}{\partial{}z}
+    \end{bmatrix}(\sin (xy) + 2z^2)\Rightarrow\quad\boxed{\begin{bmatrix}
+    y\cos(xy)\newline x\cos(xy) \newline 4z
+    \end{bmatrix}}$$ <br>
+$$ \nabla^2(sin (xy) + 2z^2) = (\frac{\partial{}^2}{\partial{}x^2}+\frac{\partial{}^2}{\partial{}y^2}+\frac{\partial{}^2}{\partial{}z^2})(sin (xy) + 2z^2) $$ <br>
+$$ \Rightarrow\quad -y^2\sin(xy)-x^2\sin(xy) + 4 \Rightarrow\quad\boxed{4 - (x^2+y^2)\sin (xy)} $$
+</div>
+
+## Exam Style Questions
+### Problem 9.
 Show that the function $u\left(x,y\right)=\ln⁡(1+xy^2)$ satisfies the partial differential equation:
 $$ 2\frac{ {\partial{}}^2u}{ {\partial{}x}^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=0 $$
 
@@ -448,7 +483,7 @@ $$
 
 -----------------------------------
 
-### Problem 9.
+### Problem 10.
 If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:}
 $$ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=0 $$
 
@@ -473,7 +508,7 @@ t\frac{\partial{}g}{\partial{}s}+s\frac{\partial{}g}{\partial{}t}=(\frac{\partia
 
 -----------------------------------
 
-### Problem 10.
+### Problem 11.
 #### [10 marks]
 Given the expressions, <br>
 $ f(u,v)=2u^3-7uv+v^2$ <br>
