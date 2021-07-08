@@ -67,6 +67,8 @@ $$
 $$
 </div>
 
+-----------------------------------
+
 ### Problem 2.
 For the function
 $u\left(x,y\right)=\ln⁡(1+xy^2)$,
@@ -101,6 +103,8 @@ $$
 = \frac{2y}{(1+xy^2)^2}
 $$
 </div>
+
+-----------------------------------
 
 ### Problem 3.
 Find the turning points,
@@ -286,6 +290,8 @@ $$
 
 </div>
 
+-----------------------------------
+
 ### Problem 5.
 If $f\left(x,y\right)=\sqrt[ 3 ]{x^3+y^3}$, find $f_x\left(a,0\right)$
 
@@ -299,6 +305,8 @@ $$
 \boxed{ f'_x(a,0)=1 }
 $$
 </div>
+
+-----------------------------------
 
 ### Problem 6.
 The ellipsoid $4x^2+2y^2+z^2=16$ intersects the plane $y=2$ in an ellipse. Find parametric equations for the tangent line to this ellipse at the point (1, 2, 2).
@@ -338,6 +346,8 @@ To get the parametric equation of the line, take $x = t$:
 
 $$ \boxed{ x = t, \quad y=2, \quad z = -2t + 4 } $$
 </div>
+
+-----------------------------------
 
 ### Problem 7.
 Calculate the divergence ($\nabla \cdot$) and the curl ($\nabla \times$) of the following vector fields:
@@ -435,6 +445,8 @@ $$ \boxed{
 2\frac{ {\partial{}}^2u}{\partial{}x^2}+y^3\frac{ {\partial{}}^2u}{\partial{}y\partial{}x}=-\frac{2y^4}{ { {(1+xy}^2)}^2}+\frac{ {2y}^4}{ { {(1+xy}^2)}^2}=0 }
 $$
 </div>
+
+-----------------------------------
 
 ### Problem 9.
 If $ g\left(s,t\right)=f(s^2-t^2,\ t^2-s^2) $ and $f$ is differentiable, show that $g$ satisfies the equation:}
