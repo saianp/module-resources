@@ -43,7 +43,11 @@ Consider the three vectors $\vec{a}= (2,1,0)$, $\vec{b}= (-1,2,3)$, and $\vec{c}
 <div class = "answer">$\Rightarrow \quad \boxed{\vec{a}+\vec{b}=(1,3,3)}$</div>
 
 (b) $2\vec{a}-\vec{b}$
+<<<<<<< Updated upstream
 <div class = "answer">$2\vec{a}-\vec{b}=((2\times2+1),\space (2\times1-2),\space (2\times0-3)) = \boxed{ (5,0,-3)}$</div>
+=======
+<div class = "answer">$2\vec{a}-\vec{b}=(2\times2+1,2\times1-2,2\times0-3) = \boxed{ (5,0,-3)}$</div>
+>>>>>>> Stashed changes
 
 (c) $\vec{a}\circ\vec{b}\circ \vec{c}$
 <div class = "answer">$\vec{a}\circ\vec{b}\circ \vec{c}=(\vec{a}\circ\vec{b})\circ\vec{c}=(-2,2,0)(1,2,1)=\boxed{(-2,4,0)}$</div>
@@ -250,7 +254,7 @@ Hence, $\boxed{\textrm{the triangle is a right angled triangle.}}$</div>
 -----------------------------------------------------------------------------------
 
 ### Problem 6.
-(a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$, are coplanar, that is,they lie in the same plane.
+(a)  Use the scalar triple product to show that the vectors $a=2i+3j+k, b=i-j, c=7i+3j+2k$, are coplanar, that is, they lie in the same plane.
 <div class = "answer">We have the volume of parallelepiped (remember the definition of the dot product and cross product) <br>
 Volume = $|a||\cos\phi||b\times c|=\vec{a}\cdot(\vec{b}\times \vec{c})$
 Volume=$\vec{a}\cdot(\vec{b}\times\vec{c})=(2,3,1)\cdot
@@ -274,6 +278,7 @@ Therefore, the volume of the parallelepiped formed by vector a,b,c is 0. $\boxed
 -----------------------------------------------------------------------------------
 
 ### Problem 7.
+<<<<<<< Updated upstream
 (a) Given the basis vectors $\vec{a} = 2\hat{i} - 3\hat{j}$ and $\vec{b} = \hat{i} + 2\hat{j}$, what is the vector $(4, -9)$ equivalent to?
 <div class = "answer">
 $(4, -9)$ is equivalent to $4\vec{a} - 9\vec{b}$ <br>
@@ -336,10 +341,71 @@ $\vec{AB}$ is perpendicular to $l_1$: <br>
 $\begin{pmatrix}
 -2 + 2\mu \\\\
 3 - \mu -\lambda \\\\
+=======
+(a)  Given that the vectors $\vec{v} = 2\hat{i} + 4\hat{j}$ and $\vec{w} = 3\hat{i} + 7\hat{j}$ are chosen as basis vectors, what is the vector $ (-4,9) $ equivalent to?
+<div class = "answer">
+$ (-4,9) $ is equivalent to $-4\vec{v} + 9\vec{w} $ <br>
+$-4\vec{v} = -8\hat{i} -16\hat{j}$ and $9\vec{w} = 27\hat{i} + 63\hat{j}$ <br>
+Therefore, $ (-4,9) $ is equivalent to $19\hat{i} + 47\hat{j}$
+</div>
+
+
+-----------------------------------------------------------------------------------
+
+### Problem 8.
+The lines $ l_1 $ and $ l_2 $ have equations $\begin{pmatrix}
+    1 \\\\
+    0 \\\\
+    0 \\\\
+\end{pmatrix} $ + $ \lambda $ $\begin{pmatrix}
+    0 \\\\
+    1 \\\\
+    1 \\\\
+\end{pmatrix} $ and $\begin{pmatrix}
+    -1 \\\\
+    3 \\\\
+    -1 \\\\
+\end{pmatrix} $ + $ \mu $ $\begin{pmatrix}
+    2 \\\\
+    -1 \\\\
+    -1 \\\\
+\end{pmatrix} $ respectively, where $ \lambda $ and $ \mu $ are scalars.  <br>
+(a) Find the shortest distance between these two lines.
+<div class = "answer">
+Method 1 (The long way): <br>
+Let $ A $ be a general point on $ l_1 $ and let $ B $ be a general point on $ l_2 $. <br>
+$ A $ has position vector $ A = \begin{pmatrix}
+    1 \\\\
+    \lambda \\\\
+    \lambda \\\\
+\end{pmatrix}$ and $ B $ has position vector $ B = \begin{pmatrix}
+    -1 + 2\mu \\\\
+    3 - \mu \\\\
+    -1 - \mu \\\\
+\end{pmatrix}$ <br>
+$ \vec{AB} = \begin{pmatrix}
+    -1 + 2\mu \\\\
+    3 - \mu \\\\
+    -1 - \mu \\\\
+\end{pmatrix} - \begin{pmatrix}
+    1 \\\\
+    \lambda \\\\
+    \lambda \\\\
+\end{pmatrix} = \begin{pmatrix}
+    -2 + 2\mu \\\\
+    3 - \mu - \lambda \\\\
+    -1 - \mu - \lambda \\\\
+    \end{pmatrix}$ <br>
+$ \vec{AB} $ is perpendicular to $ l_1 $, so: <br>
+$ \begin{pmatrix}
+-2 + 2\mu \\\\
+3 - \mu - \lambda \\\\
+>>>>>>> Stashed changes
 -1 - \mu - \lambda \\\\
 \end{pmatrix}\cdot\begin{pmatrix}
 0 \\\\
 1 \\\\
+<<<<<<< Updated upstream
 1 - \mu - \lambda \\\\
 \end{pmatrix} = 0$ <br>
 $3 - \mu - \lambda - 1 - \mu - \lambda = 0 \Rightarrow\quad 2 - 2\mu - 2\lambda = 0\quad (1)$ <br>
@@ -347,10 +413,21 @@ $\vec{AB}$ is perpendicular to $l_2$: <br>
 $\begin{pmatrix}
 -2 + 2\mu \\\\
 3 - \mu -\lambda \\\\
+=======
+1 \\\\
+\end{pmatrix} = 0$ <br>
+$ 3 - \mu - \lambda - 1 - \mu - \lambda = 0 $ <br>
+$ 2 - 2\mu - 2\lambda =0\quad (1) $ <br>
+$ \vec{AB} $ is also perpendicular to $ l_2 $, so: <br>
+$ \begin{pmatrix}
+-2 + 2\mu \\\\
+3 - \mu - \lambda \\\\
+>>>>>>> Stashed changes
 -1 - \mu - \lambda \\\\
 \end{pmatrix}\cdot\begin{pmatrix}
 2 \\\\
 -1 \\\\
+<<<<<<< Updated upstream
 -1 - \mu - \lambda \\\\
 \end{pmatrix} = 0$ <br>
 $ -4 + 4\mu - 3 + \mu + \lambda + 1 + \mu + \lambda = 0 \Rightarrow\quad -6 + 6\mu + 2\lambda = 0\quad (2)$ <br>
@@ -410,6 +487,60 @@ $ (\vec{a_2} - \vec{a_1})\cdot(\vec{b_1}\times\vec{b_2}) = \begin{pmatrix}
 \end{pmatrix} = 0 + 6 + 2 = 8 $ <br>
 Finally, $d = \frac{8}{2\sqrt{2}} = \boxed{2\sqrt{2}}$
 
+=======
+-1 \\\\
+\end{pmatrix} = 0$ <br>
+$ -4 + 4\mu -3 +\mu +\lambda +1 + \mu + \lambda = 0 $ <br>
+$ -6 + 6\mu +2\lambda = 0\quad (2) $ <br>
+From $ (1) $, $ \lambda = 1 - \mu $ <br>
+From $ (2) $. $ -3 + 3\mu + \lambda = 0 $ <br>
+$ -3 + 3\mu + 1 - \mu = 0\Rightarrow\space \mu = 1 $ <br>
+Substituting $ \mu = 1 $ into $(1)$ gives: <br>
+$ 2 - 2 - 2\lambda = 0\Rightarrow\space \lambda = 0 $ <br>
+Therefore, $\vec{AB} = \begin{pmatrix}
+    -2 + 2 \\\\
+    3 - 1 - 0 \\\\
+    -1 - 1 - 0 \\\\
+    \end{pmatrix} = \begin{pmatrix}
+    0 \\\\
+    2 \\\\
+    -2 \\\\
+    \end{pmatrix} $ <br>
+The minimum distance between $l_1$ and $l_2$ is the length of $\vec{AB}$ <br>
+$ |\vec{AB}| = \sqrt{0^2 + 2^2 + (-2)^2} = \sqrt{8} = 2\sqrt{2} $ <br>
+Method 2 (A much shorter way): <br>
+For two lines $l_1 = \vec{a_1} + \lambda\vec{b_1}$ and $l_2 = \vec{a_2} + \mu\vec{b_2}$, the shortest distance between the two lines is given by: <br>
+$ d = \frac{|(\vec{a_1}-\vec{a_2})\cdot(\vec{b_1}\times\vec{b_2})|}{|(\vec{b_1}\times\vec{b_2})|} $ <br>
+In this case $ \vec{a_1}-\vec{a_2}  = \begin{pmatrix}
+    -1 \\\\
+    3 \\\\
+    -1 \\\\
+\end{pmatrix} - \begin{pmatrix}
+    1 \\\\
+    0 \\\\
+    0 \\\\
+\end{pmatrix} = \begin{pmatrix}
+    -2 \\\\
+    3 \\\\
+    -1 \\\\
+\end{pmatrix}$ <br>
+$ \vec{b_1}\times\vec{b_2} = \begin{pmatrix}
+    0 \\\\
+    2 \\\\
+    -2 \\\\
+\end{pmatrix} $ <br>
+So $ |\vec{b_1}\times\vec{b_2}| = 2\sqrt{2} $ <br>
+Substituting these into the equation gives: <br>
+$ d = \frac{|\begin{pmatrix}
+    -2 \\\\
+    3 \\\\
+    -1 \\\\
+\end{pmatrix}\cdot\begin{pmatrix}
+    0 \\\\
+    2 \\\\
+    -2 \\\\
+\end{pmatrix}|}{2\sqrt{2}} = \frac{8}{2\sqrt{2}} = 2\sqrt{2} $
+>>>>>>> Stashed changes
 </div>
 
 -----------------------------------------------------------------------------------
@@ -437,9 +568,14 @@ $$d=\Big|\frac{\vec{RP}\cdot\vec{n}}{|n|}\Big|=\Big|[2,-1,0]\cdot
 Sum of the radii of the pipes is $0.4+0.5=\boxed{0.9.}$ <br>
 Hence, $\boxed{\text{the pipes do NOT need re-aligning to avoid intersection.}}$</div>
 
+-----------------------------------------------------------------------------------
+
 ## Exam Style Questions
 ### Problem 10.
+<<<<<<< Updated upstream
 #### [12 marks]
+=======
+>>>>>>> Stashed changes
 The diagram below shows a cuboid $OABCDEFG$ with coordinates as shown. The point P has coordinates $(4,2,0)$.
 
 ![cuboid](02-vectors-media\cuboid.png)
@@ -482,7 +618,10 @@ $\boxed{\text{Angle between line and plane } = 34.0^\circ}$ </div>
 -----------------------------------------------------------------------------------
 
 ### Problem 11.
+<<<<<<< Updated upstream
 #### [14 marks]
+=======
+>>>>>>> Stashed changes
 A mahi-mahi fish, initially located at $(-4,3,-2)$km, begins to swim towards a coral reef with velocity
 $\begin{pmatrix}
     1 \\\\
@@ -539,7 +678,11 @@ $ |(\vec{b}-\vec{s})| = \sqrt{(12-t)^2 + (3-7t)^2 + (2+6t)^2} = \boxed{12.32 km}
 
 ## Challenging Questions
 ### Problem 12.
+<<<<<<< Updated upstream
 Please prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
+=======
+Prove any given three vectors $\vec{a}$, $\vec{b}$, and $\vec{c}$ satisfy the relationship
+>>>>>>> Stashed changes
 $$(\vec{a}+\vec{b})+\vec{c} = \vec{a} + (\vec{b} + \vec{c})$$
 
 <div class = "answer">
